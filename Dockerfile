@@ -11,13 +11,13 @@ RUN pip3 install --upgrade pip
 #RUN pip3 install configparser
 #RUN pip3 install jsonschema
 # - - - PIL installation - - - 
-RUN apt-get install libjpeg-dev -y
+#RUN apt-get install libjpeg-dev -y
 #RUN apt-get install zlib1g-dev -y
 #RUN apt-get install libfreetype6-dev -y
 #RUN apt-get install liblcms1-dev -y
-RUN apt-get install libopenjp2-7 -y
-RUN apt-get install libtiff5 -y
-RUN pip3 install pillow
+#RUN apt-get install libopenjp2-7 -y
+#RUN apt-get install libtiff5 -y
+#RUN pip3 install pillow
 #RUN pip3 install config
 # - - - - - - - - - - - - - - - -
 RUN apt-get install python3-picamera
